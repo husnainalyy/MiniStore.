@@ -1,0 +1,33 @@
+/* PRODUCT CSS code */
+.singleProductImg {
+    width: 100%;
+    height: clamp(14px, 550vw, 500px);
+    object-fit: cover;
+}
+
+.reviewImg {
+    width: 60px;
+    height: 70px;
+    object-fit: fill;
+}
+
+.productInfo {
+    font-size: clamp(14px, 3vw, 200px);
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-inline: 5px;
+    cursor: pointer;
+}
+
+#description{
+    display: block;
+}
+
+#additionalInfo{
+    display: none;
+}
+
+#reviews{
+    display: none;
+}

@@ -1,0 +1,30 @@
+/* SHOP CSS code */
+.moveShopPages {
+    text-decoration: none;
+    color: #212529;
+    padding-inline: 3%;
+}
+
+.productShop img {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.priceFilter h3 {
+    font-size: clamp(30px, 2vw, 120px);
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.priceFilter p {
+    line-height: 1.5;
+    padding: 0px;
+}
+
+.priceFilter p a {
+    color: black;
+    text-decoration: none;
+
+}

@@ -1,0 +1,317 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Services code used in index page , about page ,  */
+
+.servicetitle {
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 0px;
+}
+
+.servicedes {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.297);
+}
+
+
+/* mobile  and watches  products code used in index page , single product page */
+/* mobile */
+.product {
+    position: relative;
+    margin-inline: 6px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.product img {
+    width: 350px;
+    height: 300px;
+    object-fit: fill;
+}
+
+
+.addCartProduct {
+    position: absolute;
+    padding-block: 10px;
+    padding-inline: 70px;
+    color: aliceblue;
+    background-color: #212529;
+    border: none;
+    border-radius: 4px;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 1s ease, opacity 1s ease;
+    opacity: 0;
+}
+
+.addCartProduct:hover {
+    background-color: #72AEC8;
+
+}
+
+.product:hover .addCartProduct {
+    bottom: calc(25%);
+    opacity: 1;
+}
+
+.price {
+    color: rgb(15, 92, 174);
+}
+
+
+
+/* watch */
+.productslist {
+    overflow-x: auto;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.productslist::-webkit-scrollbar {
+    display: none;
+}
+
+/* slide button below the mobile and watches */
+.slider button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 3px;
+    border: 1px solid black;
+
+}
+
+.productMoveBtnLeft, .watchMoveBtnLeft {
+    background-color: #72AEC8;
+}
+
+.productMoveBtnRight, .watchMoveBtnRight {
+    background-color: transparent;
+}
+
+
+
+.slider button:hover {
+    background-color: rgb(192, 194, 194);
+}
+
+
+/*Latest blogs css code used in index page , single post page  */
+.blogi {
+    padding: 0px;
+}
+
+
+.blogi img {
+    width: 100%;
+    height: 250px;
+    object-fit: fill;
+}
+
+.headingi,
+.datei {
+    margin-bottom: 0px;
+}
+
+.headingi {
+    line-height: 1.3;
+}
+
+.datei {
+    color: rgba(0, 0, 0, 0.473);
+}
+
+.quote p {
+    font-size: clamp(20px, 3vw, 90px);
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Subscribe portion ,Shop insta portion , Help footer portion CSS code used in all pages */
+/* Subscribe */
+#email {
+    width: 300%;
+    height: 40px;
+    border: none;
+    color: rgba(0, 0, 0, 0.475);
+}
+
+#email:focus {
+    border: none;
+    outline: none;
+}
+
+#emailbtn {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #72AEC8;
+    color: white;
+}
+
+/*Shop insta  */
+.shopinsta {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.shopinsta img {
+    width: 100%;
+    height: 150px;
+    object-fit: fill;
+
+}
+
+.instaSvg {
+    position: absolute;
+
+    bottom: 10px;
+    left: 20%;
+    transform: translateX(-50%);
+    transition: bottom 1s ease, opacity 1s ease;
+    opacity: 0;
+}
+
+.instaSvg {
+    margin-left: 30%;
+}
+
+.shopinsta:hover .instaSvg {
+    bottom: calc(25%);
+    opacity: 1;
+}
+
+
+
+/* Footer */
+.help a {
+    text-decoration: none;
+    color: black;
+    line-height: 1.8;
+}
+
+.ship p,
+.ship i {
+    color: rgba(0, 0, 0, 0.457);
+}
+
+.payment p,
+.payment i {
+    color: rgba(0, 0, 0, 0.457);
+}
+
+.Copyright p {
+    color: rgba(0, 0, 0, 0.457);
+}
+
+
+/* About all CSS code is shared by more than one page so its all CSS code is common */
+.about {
+    background-color: #EDF1F3;
+}
+
+.aboutus {
+    font-size: clamp(30px, 6vw, 120px);
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.3;
+}
+
+.aboutnav a {
+    text-decoration: none;
+    color: black;
+}
+
+.infohead {
+    font-size: clamp(30px, 6vw, 120px);
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.infoimg img {
+    width: 100%;
+    height: 450px;
+    object-fit: fill;
+}
+
+
+
+/*  blog and shop */
+.searchblog {
+    outline: none;
+    border: none;
+    padding: 9px 10px 9px 10px;
+    font-size: 3vh;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    margin: -2px;
+}
+
+.searchbtn {
+    outline: none;
+    border: none;
+    background-color: #212529;
+    margin-left: -3px;
+    padding-top: 28px;
+    padding-bottom: 10px;
+    padding-inline: 15px;
+}
+
+.searchbtn i {
+    color: #212529;
+}
+
+.searchbtn i:hover {
+    color: #72AEC8;
+}
+
+.categories h3 {
+    font-size: clamp(30px, 2vw, 120px);
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.categories p {
+    line-height: 1.5;
+    margin: 0px;
+    padding: 0px;
+}
+
+.categories p a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.tags h3 {
+    font-size: clamp(30px, 2vw, 120px);
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.tags p {
+    line-height: 1.5;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tags p a {
+    text-decoration: none;
+    color: black;
+}

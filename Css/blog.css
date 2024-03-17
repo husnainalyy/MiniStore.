@@ -1,0 +1,67 @@
+/* BLOGS CSS code this page contain many blogs */
+.latestPosts h3 {
+    font-size: clamp(30px, 2vw, 120px);
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.imgLatestPosts {
+    width: 40%;
+    height: 100px;
+    object-fit: fill;
+}
+
+.latestPostsHeading {
+    font-size: clamp(20px, 1vw, 90px);
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.SocialLinks h3 {
+    font-size: clamp(30px, 2vw, 120px);
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.SocialLinks p {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5;
+}
+
+.SocialLinks p a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.blog {
+    padding: 0px;
+}
+
+
+.blog img {
+    width: 100%;
+    height: 190px;
+    object-fit: fill;
+}
+
+.blogHeading,
+.blogDate {
+    margin-bottom: 0px;
+}
+
+.blogHeading {
+    font-family: "Headland One", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.0;
+
+}
+
+.blogDate {
+    color: rgba(0, 0, 0, 0.473);
+}

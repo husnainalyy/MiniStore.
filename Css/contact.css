@@ -1,0 +1,17 @@
+/* CONTACT CSS code */
+.contactName input {
+    width: 49%;
+}
+
+.contactNameInput {
+    outline: none;
+    border: 1px solid gray;
+}
+
+.submitBtnContact {
+    background-color: #212529;
+    color: azure;
+    border: none;
+    border-radius: 3px;
+
+}

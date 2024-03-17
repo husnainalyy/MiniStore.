@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- css  -->
+    <link rel="stylesheet" href="/Css/commonCode.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rubik+Glitch+Pop&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <!-- Navbar bootstrap -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+
+        <div class="container d-flex justify-content-between align-items-center">
+            <a class="navbar-brand fs-2 logo " href="./index.html">Mini Store.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class=" collapse navbar-collapse justify-content-end max-height-300" id="navbarTogglerDemo03">
+                <ul class="navbar-nav  my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 400px;">
+                    <li class="nav-item pe-4">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-link" href="#Services">Services</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-link" href="#Reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-link" href="#Insta">Insta</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-link" href="#Help">Help</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="./about.html">ABOUT</a></li>
+                            <li><a class="dropdown-item" href="./blog.html">BLOG</a></li>
+                            <li><a class="dropdown-item" href="./shop.html">SHOP</a></li>
+                            <li><a class="dropdown-item" href="./cart.html">CART</a></li>
+                            <li><a class="dropdown-item" href="./checkout.html">CHECKOUT</a></li>
+                            <li><a class="dropdown-item" href="./blogone.html">SINGLE POST</a></li>
+                            <li><a class="dropdown-item" href="./product.html">SINGLE PRODUCT</a></li>
+                            <li><a class="dropdown-item" href="./contact.html">CONTACT</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+
+
+        </div>
+    </nav>
+    <!-- Navbar bootstrap End -->
+
+
+
+    <!-- About starts -->
+    <div class="container-fluid d-flex about flex-column align-items-center py-5 ">
+        <p class="aboutus">ABOUT US</p>
+        <p class="aboutnav">
+            <a href="./index.html">Home</a>
+            >
+            <a href="./about.html">About</a>
+        </p>
+    </div>
+    <!-- About ends -->
+
+
+    <!-- Services Start -->
+    <div class="container" id="Services">
+        <div class=" row g-4 py-5 row-cols-1 row-cols-lg-4 mt-5 d-flex justify-content-between">
+            <div class="col d-flex align-items-start">
+                <div class="icon-square mt-1 me-1">
+                    <i class="fa-solid fa-cart-shopping fa-xl" style="color: #4aa3e7;"></i>
+                </div>
+                <div>
+                    <p class="servicetitle ">Free Delivery</p>
+                    <p class="servicedes">Unlock free delivery on all orders today!</p>
+
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <div class="icon-square  mt-1 me-1">
+                    <i class="fa-solid fa-award fa-xl" style="color: #4aa3e7;"></i>
+                </div>
+                <div>
+                    <p class="servicetitle">QUALITY GUARANTEE</p>
+                    <p class="servicedes">Our quality guarantee ensures your satisfaction with every purchase.</p>
+
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <div class="icon-square mt-1 me-1">
+                    <i class="fa-solid fa-tag fa-xl" style="color: #4aa3e7;"></i>
+                </div>
+                <div>
+                    <p class="servicetitle">DAILY OFFERS</p>
+                    <p class="servicedes">Don't miss out on today's exclusive daily offer!</p>
+
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <div class="icon-square mt-1 me-1">
+                    <i class="fa-solid fa-shield fa-xl" style="color: #4aa3e7;"></i>
+                </div>
+                <div>
+                    <p class="servicetitle">100% SECURE PAYMENT</p>
+                    <p class="servicedes">Rest easy knowing your payment is 100% secure with us.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services Ends -->
+
+
+    <!-- information starts -->
+    <div class=" container  d-flex  " id="About">
+        <div class="col-md-7 d-flex flex-column justify-content-center align-items-center ">
+            <p class="infohead featurette-heading fw-normal   ">
+                MINI STORE.
+            </p>
+            <div class="d-flex ">
+                <i class="bi bi-envelope-at-fill mt-1"></i>
+                <p class="lead  ms-2 ">alyhusnaiin@gmail.com</p>
+            </div>
+            <div class="d-flex ">
+                <i class="bi bi-geo-alt-fill mt-1"></i>
+                <p class="lead  ms-2 ">Bahria Town Z-block</p>
+            </div>
+            <div class="d-flex ">
+                <i class="bi bi-telephone-fill mt-1"></i>
+                <p class="lead  ms-2 ">+92-3256897669</p>
+            </div>
+            <div class="d-flex ">
+                <i class="bi bi-hourglass-bottom mt-1"></i>
+                <p class="lead  ms-2 ">9:00 am - 6:00 pm</p>
+            </div>
+        </div>
+        <div class=" infoimg col-md-5">
+            <img src="https://images.unsplash.com/photo-1516163173352-d1c4d006f9ac?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="" class="">
+        </div>
+    </div>
+    <!-- information ends -->
+
+
+    <!-- Reviews -->
+    <div class="container" id="Reviews">
+        <div class="header-cont5ent d-flex justify-content-center ">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active  mt-5 py-5 quote" style="text-align: center;">
+                        <img src="/robert-godwin-SPcFpXIME6M-unsplash.jpg" class="d-block my-3" alt="..."
+                            style="width: 100px; height: 100px; border-radius: 60%; margin-left: 45%;">
+                        <h1 class=" my-2" style="color: #ffd61f;">Andrew Sullivan</h1>
+                        <p class="text-dark ">“Ministore is my go-to for tech needs! They've got a fantastic selection
+                            of mobiles, watches, and digital gadgets. Fast
+                            shipping and great prices make shopping here a breeze. Highly recommended!”
+                    </div>
+                    <div class="carousel-item  my-5 py-5 quote" style="text-align: center; align-items: center; ">
+                        <img src="/aiony-haust-3TLl_97HNJo-unsplash.jpg" class="d-block my-3" alt="..."
+                            style="width: 100px; height: 100px; border-radius: 60%; margin-left: 45%;">
+                        <h1 class=" my-2 " style="color: #ffd61f;">Jennie Rose</h1>
+                        <p class="text-dark ">“Love Ministore! They've got everything I need in one place – mobiles,
+                            watches, and digital goodies. Quick delivery and
+                            excellent customer service make it my favorite online store.”
+
+                        </p>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Reviews -->
+
+
+    <!-- Subscribe Starts-->
+    <div class="container bg-dark d-flex justify-content-around  my-5 py-5 ">
+        <div class=" w-50">
+            <h1 class="text-light">SUBSCRIBE US NOW</h1>
+            <p class="text-light">Get latest news, updates and deals directly mailed to your inbox.</p>
+        </div>
+        <div class="  d-flex align-items-center justify-content-center w-50">
+            <input type="text" name="" placeholder="Your email address here " id="email">
+            <button id="emailbtn">SUBSCRIBE</button>
+        </div>
+    </div>
+    <!-- Subscribe ends -->
+
+
+    <!-- Shop from insta -->
+    <div class="container mb-5" id="Insta">
+        <div class="container my-5  d-flex justify-content-center">
+            <p class="fs-1">SHOP OUR INSTA</p>
+        </div>
+        <div class="container">
+            <div class="row gy-4 row-cols-3 row-cols-lg-6 justify-content-between">
+                <div class="col shopinsta ">
+                    <img src="https://images.unsplash.com/photo-1558089687-f282ffcbc126?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMyfHxzcGVha2VyfGVufDB8fDB8fHww"
+                        alt="">
+                    <a href="https://www.instagram.com" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white"
+                            class="bi bi-instagram instaSvg" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="col shopinsta">
+                    <img src="https://images.unsplash.com/photo-1585246135063-c361ccd416b6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE4fHxzcGVha2VyfGVufDB8fDB8fHww"
+                        alt="">
+                    <a href="https://www.instagram.com" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white"
+                            class="bi bi-instagram instaSvg" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="col shopinsta">
+                    <img src="https://images.unsplash.com/photo-1505322747495-6afdd3b70760?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1vYmlsZSUyMHBob25lJTIwaW5zdGF8ZW58MHx8MHx8fDA%3D"
+                        alt="">
+                    <a href="https://www.instagram.com" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white"
+                            class="bi bi-instagram instaSvg" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="col shopinsta">
+                    <img src="https://images.unsplash.com/photo-1539874754764-5a96559165b0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdhdGNofGVufDB8fDB8fHww"
+                        alt="">
+                    <a href="https://www.instagram.com" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white"
+                            class="bi bi-instagram instaSvg" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="col shopinsta">
+                    <img src="https://images.unsplash.com/photo-1507457379470-08b800bebc67?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHBjJTIwd2hpdGV8ZW58MHx8MHx8fDA%3D"
+                        alt="">
+                    <a href="https://www.instagram.com" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white"
+                            class="bi bi-instagram instaSvg" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="col shopinsta">
+                    <img src="https://images.unsplash.com/photo-1655560378428-7605bda51749?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGVhciUyMGJ1ZHN8ZW58MHx8MHx8fDA%3D"
+                        alt="">
+                    <a href="https://www.instagram.com" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white"
+                            class="bi bi-instagram instaSvg" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Shop from insta -->
+
+
+    <!-- Footer starts -->
+    <div class="container mt-5" id="Help">
+        <div class="row d-flex justify-content-between my-5">
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <h2>MiniStore.</h2>
+                <p>You are not, purely, for ultricies now. Sit down to sit on the welcome mat. The weight of the mass is
+                    a
+                    shield against
+                    hatred, and there is no charge for the touch.
+                </p>
+                <div class=" d-flex justify-content-between my-4">
+                    <a href="https://www.facebook.com" target="_blank" class="text-dark">
+                        <i class="fa-brands fa-facebook-f fa-lg "></i>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" class="text-dark">
+                        <i class="fa-brands fa-instagram fa-lg"></i>
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank" class="text-dark">
+                        <i class="fa-brands fa-twitter fa-lg"></i>
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank" class="text-dark">
+                        <i class="fa-brands fa-linkedin fa-lg"></i>
+                    </a>
+                    <a href="https://www.youtube.com" target="_blank" class="text-dark">
+                        <i class="fa-brands fa-youtube fa-lg"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 help d-flex flex-column">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./shop.html">Shop</a>
+                <a href="./blog.html">Blogs</a>
+                <a href="./contact.html">Contact</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 help d-flex flex-column">
+                <h3>HELP & INFO</h3>
+                <a href="">TRACK YOUR ORDER</a>
+                <a href="">RETURNS POLICIES</a>
+                <a href="">SHIPPING + DELIVERY</a>
+                <a href="./contact.html">CONTACT US</a>
+                <a href="">FAQS</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <h3>Contact Us</h3>
+                <p>Do you have any queries or suggestions? yourinfo@gmail.com</p>
+                <p>If you need support? Just give us a call. +55 111 222 333 44</p>
+            </div>
+        </div>
+
+        <div class="container-fluid " style="border: 1px solid rgba(0, 0, 0, 0.372);"></div>
+
+        <div class="container row d-flex justify-content-between mt-3">
+            <div class="container col-sm-6 col-lg-4 ship d-flex ">
+                <p class="fs-5">WE SHIP WITH:</p>
+                <div class="px-4">
+                    <i class="fa-solid fa-city fa-lg px-2"></i>
+                    <i class="fa-solid fa-globe fa-lg"></i>
+                </div>
+            </div>
+            <div class="container col-sm-6 col-lg-4 payment d-flex">
+                <p class="fs-5">Payment Option:</p>
+                <div class="px-4">
+                    <i class="fa-brands fa-cc-visa fa-lg"></i>
+                    <i class="fa-brands fa-cc-mastercard fa-lg"></i>
+                    <i class="fa-brands fa-cc-paypal fa-lg"></i>
+                </div>
+            </div>
+            <div class="container col-sm-6 col-lg-4 Copyright">
+                <p class="fs-5">© Copyright 2023 MiniStore. Design</p>
+            </div>
+        </div>
+    </div>
+    <!-- Footers ends -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
